@@ -1,0 +1,19 @@
+{
+  "files": [],
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    "types": ["antd"], // 声明antd的类型，不用手动引入
+  },
+  "include": ["src"],
+  "references": [
+    {
+      "path": "./tsconfig.app.json"
+    },
+    {
+      "path": "./tsconfig.node.json"
+    }
+  ]
+}
